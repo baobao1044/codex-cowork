@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+data/
+config/bot.config.json
+config/data/
+*.sqlite
+*.sqlite-journal

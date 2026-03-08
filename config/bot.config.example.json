@@ -1,0 +1,25 @@
+{
+  "discord": {
+    "token": "env:DISCORD_TOKEN",
+    "guildId": "123456789012345678",
+    "allowedChannelIds": ["123456789012345678"],
+    "ownerUserIds": ["123456789012345678"],
+    "trustedRoleIds": ["123456789012345678"]
+  },
+  "codex": {
+    "path": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\codex.cmd",
+    "stageTimeoutMs": 600000
+  },
+  "storage": {
+    "databasePath": "./data/bot.sqlite"
+  },
+  "responseLanguage": "vi",
+  "workspaces": [
+    {
+      "key": "main",
+      "label": "Main workspace",
+      "path": "C:\\Users\\Administrator\\Downloads\\codex-cowork",
+      "allowDangerousExecution": true
+    }
+  ]
+}
